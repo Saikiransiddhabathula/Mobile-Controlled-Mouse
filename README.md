@@ -15,15 +15,15 @@ This mouse can do everything a normal mouse can do, including scrolling, left an
 
 ## **Requirements** 
 **Hardware components**
- *Arduino UNO
- *Bluetooth Module
- *Jumper wires
+ * Arduino UNO
+ * Bluetooth Module
+ * Jumper wires
 
 **Software components**
-*Arduino Ide,
-*Mouse module, pyserial module,
-*IDLE (Python GUI),
-*MIT app inventor Bluetooth mouse controller application
+ * Arduino Ide
+ * Mouse module, pyserial module
+ * IDLE (Python GUI)
+ * MIT app inventor Bluetooth mouse controller application
 
 Above application can be downloded by using the this drive link: [Download](https://drive.google.com/drive/folders/1VsLh-TkJjElhF4hPCY5LZbQA6xE7NChF?usp=sharing)
 
