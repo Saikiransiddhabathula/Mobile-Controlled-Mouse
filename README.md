@@ -30,6 +30,6 @@ Above application can be downloded by using the this drive link: [Download](http
 ## **Working**
 
 The project involves a smartphone application that sends the joystick's x and y axis data, scroll status, left and right click status using Bluetooth to the Arduino Uno connected to the HC-05 Bluetooth module. These data upon reception to the Arduino is manipulated to make changes in the current cursor's position to obtain a new position. The resulting data along with scroll and button status is then printed as the output that is recognized to be read by the Python sketch. The Python sketch is made to execute mouse actions using the mouse module.
-![image](https://user-images.githubusercontent.com/60544952/109867856-002b4200-7c8d-11eb-9194-2f6465e8922f.png)
+![image](\workflow.png)
 
 
