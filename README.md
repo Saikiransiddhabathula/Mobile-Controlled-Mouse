@@ -25,6 +25,6 @@ Mouse module, pyserial module
 IDLE (Python GUI)
 MIT app inventor Bluetooth mouse controller application
 
-Above application can be downloded by using the this link: [GitHub](https://drive.google.com/drive/folders/1VsLh-TkJjElhF4hPCY5LZbQA6xE7NChF?usp=sharing)
+Above application can be downloded by using the this drive link: [Download](https://drive.google.com/drive/folders/1VsLh-TkJjElhF4hPCY5LZbQA6xE7NChF?usp=sharing)
 
 
