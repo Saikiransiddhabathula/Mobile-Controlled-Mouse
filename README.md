@@ -39,6 +39,6 @@ Before sending the main information to the HC-05 module, the application first s
 3. Send 1 byte joystick y-axis value
 4. Send status of left click, right click button and scroll status(1 byte).
 The data from the application is sent every 20 milliseconds to the Arduino UNO.
-![image](/UI.png)
+![image](/UI.jpeg)
 
 
