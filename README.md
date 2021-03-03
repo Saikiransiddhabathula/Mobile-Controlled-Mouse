@@ -32,4 +32,13 @@ Above application can be downloded by using the this drive link: [Download](http
 The project involves a smartphone application that sends the joystick's x and y axis data, scroll status, left and right click status using Bluetooth to the Arduino Uno connected to the HC-05 Bluetooth module. These data upon reception to the Arduino is manipulated to make changes in the current cursor's position to obtain a new position. The resulting data along with scroll and button status is then printed as the output that is recognized to be read by the Python sketch. The Python sketch is made to execute mouse actions using the mouse module.
 ![image](/Flowchart.jpg)
 
+The smartphone application is created using the MIT-App Inventor. Creating the app is simple as you just need to add the desired blocks to build your required application. I have referred to the Tabletop robotics tutorial on making them. The main screen of the application is as follows-
+Before sending the main information to the HC-05 module, the application first sends a one byte number(255) to denote the start of information. The sequence of data transfer is as follows-
+1. Send '255' to denote start
+2. Send 1 byte joystick x-axis value
+3. Send 1 byte joystick y-axis value
+4. Send status of left click, right click button and scroll status(1 byte).
+The data from the application is sent every 20 milliseconds to the Arduino UNO.
+![image](/UI.png)
+
 
