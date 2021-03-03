@@ -46,4 +46,4 @@ The data from the application is sent every 20 milliseconds to the Arduino UNO.
 The data bytes from the Application is received by the Arduino with the help of HC-05 Bluetooth module. The Arduino contains the current coordinates of the cursor where The x coordinates range form 0 to 1400 and the y coordinates range from 0 to 1050. I have obtained these extreme coordinates form the python function mouse.get_position() that returns the coordinates when the cursor is moved (not used in the main sketch).
 Based on the data received upon moving the joystick, the current cursor's position (x and y coordinates) is then added/subtracted with the data received by the application to move the cursor to the new desired coordinate. The final data is then printed on the Serial monitor in sequence given below.
 
-
+![image](/Arduinoside.jpg)
