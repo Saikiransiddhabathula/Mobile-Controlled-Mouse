@@ -1,3 +1,4 @@
+
 int datareceived[5] {0,0,0,0};          // To store byte from phone
 int in_byte = 0;
 int array_index = 0;
@@ -42,12 +43,17 @@ if(xpos!=0 or ypos!=0 or clicks!=0)       // when either of the joystick is move
 {
 height=height+ypos;
 width=width+xpos;
-if(height>=799)
-height=799;
+//Setup resolution according to your PC/Laptop this will follows as mentioned below
+//19-inch screen (standard ratio): 1280 x 1024 pixels.
+//20-inch screen (standard ratio): 1600 x 1200 pixels.
+//22-inch screen (widescreen): 1680 x 1050 pixels.
+//24-inch screen (widescreen): 1900 x 1200 pixels.
+if(height>=1050)
+height=1050;
 if(height<=0)
 height=0;
-if(width>=1279)
-width=1279;
+if(width>=1920)
+width=1920;
 if(width<=0)
 width=0;
 Serial.print(width);
