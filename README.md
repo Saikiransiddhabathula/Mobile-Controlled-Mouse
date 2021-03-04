@@ -47,3 +47,8 @@ The data bytes from the Application is received by the Arduino with the help of 
 Based on the data received upon moving the joystick, the current cursor's position (x and y coordinates) is then added/subtracted with the data received by the application to move the cursor to the new desired coordinate. The final data is then printed on the Serial monitor in sequence given below.
 
 ![image](/Arduinoside.jpg)
+
+## **Arduino Sketch**
+
+Sketch of pin-connections between Arduino and HC-05 Bluetooth Module
+
