@@ -51,4 +51,4 @@ Based on the data received upon moving the joystick, the current cursor's positi
 ## **Arduino Sketch**
 
 Sketch of pin-connections between Arduino and HC-05 Bluetooth Module
-
+![image](/pin_diagram.png)
