@@ -30,6 +30,8 @@ Above application can be downloded by using the this drive link: [Download](http
 ## **Working**
 
 The project involves a smartphone application that sends the joystick's x and y axis data, scroll status, left and right click status using Bluetooth to the Arduino Uno connected to the HC-05 Bluetooth module. These data upon reception to the Arduino is manipulated to make changes in the current cursor's position to obtain a new position. The resulting data along with scroll and button status is then printed as the output that is recognized to be read by the Python sketch. The Python sketch is made to execute mouse actions using the mouse module.
+
+
 ![image](/Flowchart.jpg)
 
 The smartphone application is created using the MIT-App Inventor. Creating the app is simple as you just need to add the desired blocks to build your required application. I have referred to the Tabletop robotics tutorial on making them. The main screen of the application is as follows-
@@ -52,3 +54,19 @@ Based on the data received upon moving the joystick, the current cursor's positi
 
 Sketch of pin-connections between Arduino and HC-05 Bluetooth Module
 ![image](/pin_diagram.png)
+
+## **Steps**
+
+### **Step1**
+To Upload the Arduino code you can use Online Arduino IDLE or install the Arduino in your device.
+Upload the Arduino code into the Arduino using data transfer cable, Make sure the TX and RX pins are unplug from arduino board while uploading the code into Arduino.
+
+### **Step2**
+Install the Mouse_Bluetooth application in your Smartphone, You can download the apk file from this link -[Mouse_application](https://drive.google.com/drive/folders/1VsLh-TkJjElhF4hPCY5LZbQA6xE7NChF?usp=sharing)
+
+### **Step3**
+Open the Mouse_application and connect the HC-05 device via Bluetooth.
+**Note**: Make sure the HC-05 Bluetooth module is already paired with your smartphone device, only then you can select it from the list of paired devices.
+
+### **Step4**
+Run the Python Sketch in your PC/Laptop using Python IDLE(GUI).
